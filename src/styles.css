@@ -1,0 +1,66 @@
+body{
+  margin: 40px auto;
+  background-color: rgb(185, 214, 234);
+}
+
+h1{
+  text-align: center;
+  font-size: 70px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.text{
+  display: block;
+  margin: 0 auto;
+  width: 550px;
+  font-size: 20px;
+  line-height: 1.9rem;
+}
+.text p{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+}
+.flex a{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+section p{
+  text-align: center;
+  font-size: 24px;
+}
+section a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+section a:hover{
+  text-decoration: underline;
+  color: red;
+  font-size: 22px;
+}
+.return, .back{
+  color: blue;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+.return:hover{
+  color: blue;
+  text-decoration: underline;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.back{
+  display: block;
+  text-align: center;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
